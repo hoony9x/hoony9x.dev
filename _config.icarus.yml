@@ -7,7 +7,7 @@ logo: /img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: /img/favicon-96x96.png
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -39,25 +39,25 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 
+        title: hoony9x's Dev Log
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: 
+        url:  https://hoony9x.dev
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: 
+        image: /image/og_image.png
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 
+        site_name: hoony9x's Dev Log
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: Kihoon Han
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: 
+        description: Personal dev log of hoony9x
         # Twitter card type (twitter:card)
         twitter_card: 
         # Twitter ID (twitter:creator)
@@ -75,19 +75,19 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: 
+        title: hoony9x's Dev Log
         # Page description (optional)
         # You should leave this blank for most of the time
-        description: 
+        description: Personal dev log of hoony9x
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: 
+        url: https://hoony9x.dev
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: Kihoon Han
         # Page images (optional)
         # You should leave this blank for most of the time
-        image: 
+        image: /image/og_image.png
     # Additional HTML meta tags in an array
     meta:
         # Meta tag specified in <attribute>=<value> style
@@ -106,9 +106,9 @@ navbar:
         About: /about
     # Links to be shown on the right of the navigation bar
     links:
-        Download on GitHub:
+        hoony9x's GitHub Profile:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/hoony9x'
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -153,50 +153,52 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+    type: utterances
+    repo: hoony9x/hoony9x.dev
+    issue_term: pathname            # Required if issue_number is not set
+    label: comment                  # Optional
+    theme: github-light             # Optional
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
-donates:
-    # "Afdian.net" donate button configurations
-    -
-        type: afdian
-        # URL to the "Afdian.net" personal page
-        url: ''
-    # Alipay donate button configurations
-    -
-        type: alipay
-        # Alipay qrcode image URL
-        qrcode: ''
-    # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
-        # URL to the "Buy me a coffee" page
-        url: ''
-    # Patreon donate button configurations
-    -
-        type: patreon
-        # URL to the Patreon page
-        url: ''
-    # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
-    # Wechat donate button configurations
-    -
-        type: wechat
-        # Wechat qrcode image URL
-        qrcode: ''
+#donates:
+#    # "Afdian.net" donate button configurations
+#    -
+#        type: afdian
+#        # URL to the "Afdian.net" personal page
+#        url: ''
+#    # Alipay donate button configurations
+#    -
+#        type: alipay
+#        # Alipay qrcode image URL
+#        qrcode: ''
+#    # "Buy me a coffee" donate button configurations
+#    -
+#        type: buymeacoffee
+#        # URL to the "Buy me a coffee" page
+#        url: ''
+#    # Patreon donate button configurations
+#    -
+#        type: patreon
+#        # URL to the Patreon page
+#        url: ''
+#    # Paypal donate button configurations
+#    -
+#        type: paypal
+#        # Paypal business ID or email address
+#        business: ''
+#        # Currency code
+#        currency_code: USD
+#    # Wechat donate button configurations
+#    -
+#        type: wechat
+#        # Wechat qrcode image URL
+#        qrcode: ''
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-share:
-    type: sharethis
-    # URL to the ShareThis share plugin script
-    install_url: ''
+#share:
+#    type: sharethis
+#    # URL to the ShareThis share plugin script
+#    install_url: ''
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -217,33 +219,33 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Kihoon Han
         # Author title
-        author_title: Your title
+        author_title: Software Engineer
         # Author's current location
-        location: Your location
+        location: Seoul, Republic of Korea
         # URL or path to the avatar image
-        avatar: 
+        avatar: 'https://avatars.githubusercontent.com/u/6437355?s=460&u=83b53053bb5f7fe1ca4ca232562e0f78230ba0b9&v=4'
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
-        gravatar: 
+        gravatar: me@hoony9x.dev
         # URL or path for the follow button
         follow_link: 'https://github.com/ppoffice'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
+                url: 'https://github.com/hoony9x'
             Facebook:
                 icon: fab fa-facebook
-                url: 'https://facebook.com'
+                url: 'https://facebook.com/hoony9x'
             Twitter:
                 icon: fab fa-twitter
-                url: 'https://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
+                url: 'https://twitter.com/hoony9x'
+            LinkedIn:
+                icon: fab fa-linkedin
+                url: 'https://www.linkedin.com/in/kihoon-han-03a801117/'
             RSS:
                 icon: fas fa-rss
                 url: /
@@ -265,8 +267,7 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
+            Non-tech Blog: 'https://hoony9x.com'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -288,23 +289,23 @@ widgets:
         position: left
         type: tags
     # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
-        # Hint text under the email input
-        description: 
-        # Feedburner ID
-        feedburner_id: ''
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: subscribe_email
+#        # Hint text under the email input
+#        description:
+#        # Feedburner ID
+#        feedburner_id: ''
     # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: ''
-        # AdSense AD unit ID
-        slot_id: ''
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: adsense
+#        # AdSense client ID
+#        client_id: ''
+#        # AdSense AD unit ID
+#        slot_id: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
@@ -314,9 +315,9 @@ plugins:
     back_to_top: true
     # Baidu Analytics plugin settings
     # https://tongji.baidu.com
-    baidu_analytics:
-        # Baidu Analytics tracking ID
-        tracking_id: 
+#    baidu_analytics:
+#        # Baidu Analytics tracking ID
+#        tracking_id:
     # Bing Webmaster Tools plugin settings
     # https://www.bing.com/toolbox/webmaster/
     bing_webmaster:
@@ -327,36 +328,36 @@ plugins:
     busuanzi: false
     # CNZZ statistics
     # https://www.umeng.com/web
-    cnzz:
-        # CNZZ tracker id
-        id: 
-        # CNZZ website id
-        web_id: 
+#    cnzz:
+#        # CNZZ tracker id
+#        id:
+#        # CNZZ website id
+#        web_id:
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
-    cookie_consent:
-        # The compliance type. Can be "info", "opt-in", or "opt-out"
-        type: info
-        # Theme of the popup. Can be "block", "edgeless", or "classic"
-        theme: edgeless
-        # Whether the popup should stay static regardless of the page scrolls
-        static: false
-        # Where on the screen the consent popup should display
-        position: bottom-left
-        # URL to your site's cookie policy
-        policyLink: 'https://www.cookiesandyou.com/'
+#    cookie_consent:
+#        # The compliance type. Can be "info", "opt-in", or "opt-out"
+#        type: info
+#        # Theme of the popup. Can be "block", "edgeless", or "classic"
+#        theme: edgeless
+#        # Whether the popup should stay static regardless of the page scrolls
+#        static: false
+#        # Where on the screen the consent popup should display
+#        position: bottom-left
+#        # URL to your site's cookie policy
+#        policyLink: 'https://www.cookiesandyou.com/'
     # Enable the lightGallery and Justified Gallery plugins
     gallery: true
     # Google Analytics plugin settings
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: 
+        tracking_id: 'G-KXHQ2TEYG5'
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
-    hotjar:
-        # Hotjar site id
-        site_id: 
+#    hotjar:
+#        # Hotjar site id
+#        site_id:
     # Enable the KaTeX math typesetting support
     # https://katex.org/
     katex: false
@@ -365,21 +366,21 @@ plugins:
     mathjax: false
     # Enable the Outdated Browser plugin
     # http://outdatedbrowser.com/
-    outdated_browser: false
+    outdated_browser: true
     # Show a progress bar at top of the page on page loading
     progressbar: true
     # Statcounter statistics
     # https://statcounter.com/
-    statcounter:
-        # Statcounter project id
-        project: 
-        # Statcounter project security code
-        security: 
+#    statcounter:
+#        # Statcounter project id
+#        project:
+#        # Statcounter project security code
+#        security:
     # Twitter conversion tracking plugin settings
     # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
-    twitter_conversion_tracking:
-        # Twitter Pixel ID
-        pixel_id: 
+#    twitter_conversion_tracking:
+#        # Twitter Pixel ID
+#        pixel_id:
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
