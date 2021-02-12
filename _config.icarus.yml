@@ -94,7 +94,7 @@ head:
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
         - ''
     # URL or path to the website's RSS atom.xml
-    rss: 
+    rss: /rss.xml
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
@@ -103,12 +103,15 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
-        About: /about
+#        About: /about
     # Links to be shown on the right of the navigation bar
     links:
-        hoony9x's GitHub Profile:
+        GitHub:
             icon: fab fa-github
             url: 'https://github.com/hoony9x'
+        LinkedIn:
+            icon: fab fa-linkedin
+            url: 'https://www.linkedin.com/in/kihoon-han-03a801117/'
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -134,7 +137,7 @@ article:
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
         fold: unfolded
     # Whether to show estimated article reading time
-    readtime: true
+    readtime: false
     # Article licensing block
     licenses:
         Creative Commons:
