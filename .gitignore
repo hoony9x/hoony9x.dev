@@ -294,3 +294,5 @@ Thumbs.db
 db.json
 public/
 .deploy*/
+# Local Netlify folder
+.netlify
