@@ -56,7 +56,7 @@ tags:
 
 ## 코딩 테스트
 
-서류 합격 메일을 받고 몇 시간 뒤에 코딩 테스트 안내 메일알 받아보게 되었어요.
+서류 합격 메일을 받고 몇 시간 뒤에 코딩 테스트 안내 메일을 받아보게 되었어요.
 
 ![코딩 테스트 안내 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/coding_test_guide.png)
 
@@ -164,4 +164,18 @@ tags:
 ![2차 인터뷰 합격 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/2nd_interview_pass.png)
 
 최종 합격 메일을 받게 되었어요.
+
+## 이후 과정
+
+일단 수시채용 지원이다 보니 연봉협상 과정이 (형식적으로) 있었어요. 뭐 어차피 신입 지원이라 사실상 협상할 만한 건 없었어요.
+
+그리고, (아마 잘 알려져 있을 것이라고 생각하지만) 카카오에서는 영어 명칭을 사용해요. 그래서 이 영어 명칭을 포함하여 입사 전에 필요한 기본 인적사항을 입력하는 단계가 있었어요.
+
+![입사 안내 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/before_enter_1.png)
+
+![입사 전 가이드 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/before_enter_2.png)
+
+그렇게 저는 카카오에 입사를 하게 되었습니다.
+
+## 그런데 지금은 카카오 재직중이 아니시네요?
 
