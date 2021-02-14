@@ -153,3 +153,15 @@ tags:
 
 ![2차 인터뷰 안내 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/2nd_interview_guide.png)
 
+마지막 면접은 입사 후 저가 일하게 될 팀의 상위 조직장님 1명, 그리고 이전 면접에서와 같이 공통면접관이란 명칭으로 타 팀에서 1명 이렇게 2명이 들어오셨어요.
+
+주로 "협업 시 갈등 경험", "카카오에 와서 무엇을 해보고 싶은지" 와 같은 통상적인 인성 면접 질문도 받았고요, 저의 [개인 GitHub Profile](https://github.com/hoony9x) 에 있는 Repository 를 보면서 코드에 관한 질문을 받기도 했어요.
+
+그 외에 특별히 기억에 남는 질문은 없었어요.
+
+그렇게 마지막 면접이 끝났고, 약 일주일 정도의 기다림 끝에
+
+![2차 인터뷰 합격 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/2nd_interview_pass.png)
+
+최종 합격 메일을 받게 되었어요.
+
