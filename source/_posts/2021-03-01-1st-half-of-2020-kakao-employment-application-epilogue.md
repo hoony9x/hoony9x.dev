@@ -2,9 +2,9 @@
 title: 2020년 상반기 카카오 수시채용 지원 후기
 categories:
 - Recruitment
-date: 2021-02-13 12:17:01
-cover: /img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/thumbnail.png
-thumbnail: /img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/thumbnail.png
+date: 2021-03-01 12:17:01
+cover: /img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/thumbnail.png
+thumbnail: /img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/thumbnail.png
 tags:
 - kakao
 - interview
@@ -22,7 +22,7 @@ tags:
 4. 1차 인터뷰
 5. 2차 인터뷰
 
-그리고, 글 작성 시점(2021년 2월 13일) 기준으로 2년 미만 경력 지원자 혹은 신입 지원자의 경우,
+그리고, 글 작성 시점(2021년 3월 1일) 기준으로 2년 미만 경력 지원자 혹은 신입 지원자의 경우,
 바로 정규직으로 채용이 되지 않고 최대 3개월 간 계약직으로 근무하게 된다는 점이 있어요.
 
 아래 내용은 카카오 채용 페이지의 공고에서 가져왔어요.
