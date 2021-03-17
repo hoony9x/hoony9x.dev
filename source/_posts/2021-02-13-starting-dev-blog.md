@@ -1,8 +1,8 @@
 ---
 title: 새로운 기술 블로그를 시작합니다
 date: 2021-02-13 02:14:43
-cover: /img/2021-02-13-starting-dev-blog/IMG_0330.jpeg
-thumbnail: /img/2021-02-13-starting-dev-blog/IMG_0330.jpeg
+cover: /img/2021-02-13-starting-dev-blog/IMG_0330.jpg
+thumbnail: /img/2021-02-13-starting-dev-blog/IMG_0330.jpg
 tags:
 categories:
 - Uncategorized
