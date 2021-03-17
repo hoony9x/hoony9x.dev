@@ -125,3 +125,6 @@ robotstxt:
   allow:
     - /
   sitemap: https://hoony9x.dev/sitemap.xml
+
+# hexo-all-minifier
+all_minifier: true
