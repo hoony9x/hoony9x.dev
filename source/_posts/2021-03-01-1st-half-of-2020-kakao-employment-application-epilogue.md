@@ -10,7 +10,7 @@ tags:
 - interview
 ---
 
-이 글에서는 작년(2020년) 상반기에 카카오에 지원했던 이야기를 하려고 해요.
+이 글에서는 작년(2020년) 상반기에 카카오에 수시채용으로 지원했던 이야기를 하려고 해요.
 
 <!-- more -->
 
@@ -27,15 +27,17 @@ tags:
 
 아래 내용은 카카오 채용 페이지의 공고에서 가져왔어요.
 
-> ※ 카카오 기술 직군의 경우, 개발 경력 2년 미만일시 추가 역량 검증을 위해 정직원 최종 합격 전, 최대 3개월간 계약직으로 근무할 수 있습니다.
+> ※ 카카오 기술 직군의 경우, 개발 경력 2년 미만일시 추가 역량 검증을 위해 정직원 최종 합격 전, 최대 3개월간 계약직으로 근무할 수 있습니다.  
 > (단, 신입개발자 블라인드 채용 전형 합격자의 경우는 개발 경력 2년미만이라도 정규직으로 입사하게 됩니다.)
+
+일종의 인턴 과정을 진행한다고 생각하면 될 것 같아요.
 
 ## 서류 전형
 
 지원서에는 다음과 같은 내용을 적게 되어 있어요.
 
 - 경력사항
-    - 저는 이전에 짧게 인턴했던 이력을 적었어요.
+    - 저는 이전에 짧게 타 회사에서 인턴했던 이력을 적었어요.
 - 프로젝트 수행 이력
     - 인턴하면서 진행했던 프로젝트 내용, 개인 프로젝트 내용을 적었어요.
 - 자기소개
@@ -48,17 +50,17 @@ tags:
 
 그렇기 때문에, **적은 내용에 대해서는 질문이 들어왔을 때 답변을 제대로 할 준비가 되어 있어야 해요.**
 
-![서류 제출 완료 안내 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/document-submitted.png)
+![서류 제출 완료 안내 메일](/img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/document-submitted.png)
 
 제출 후 4일 후 서류 합격 메일을 받아보게 되었어요.
 
-![서류전형 합격 안내 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/document-pass.png)
+![서류전형 합격 안내 메일](/img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/document-pass.png)
 
 ## 코딩 테스트
 
 서류 합격 메일을 받고 몇 시간 뒤에 코딩 테스트 안내 메일을 받아보게 되었어요.
 
-![코딩 테스트 안내 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/coding_test_guide.png)
+![코딩 테스트 안내 메일](/img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/coding_test_guide.png)
 
 코딩 테스트는 [HackerRank](https://www.hackerrank.com/) 플랫폼에서 진행했어요.
 
@@ -71,19 +73,19 @@ tags:
 
 굳이 미룰 이유가 없어서 메일을 받은 날에 바로 테스트를 진행했어요.
 
-![코딩 테스트 완료 안내 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/coding_test_finished.png)
+![코딩 테스트 완료 안내 메일](/img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/coding_test_finished.png)
 
 참고로, **이 때 풀었던 문제는 면접 때 물어볼 수도 있으니 기억에 남겨두시는 것을 추천할게요.**
 
 며칠 뒤, 코딩 테스트 합격 안내를 받아보게 되었어요.
 
-![코딩 테스트 합격 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/coding_test_pass.png)
+![코딩 테스트 합격 메일](/img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/coding_test_pass.png)
 
 ## 원격 인터뷰
 
 얼마 뒤에, 원격 인터뷰 안내를 받게 되었어요.
 
-![원격 인터뷰 안내 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/remote_interview_guide.png)
+![원격 인터뷰 안내 메일](/img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/remote_interview_guide.png)
 
 참고로, 코로나19 상황으로 인해 이 면접 뿐만 아니라 이후의 모든 면접은 [Google Meet](https://meet.google.com/) 을 통한 화상 면접으로 진행이 되었어요.
 
@@ -113,7 +115,7 @@ tags:
 
 뭔가 면접을 어버버하면서 봐서 망했다 라고 생각을 하고 있었어요. 그런데...
 
-![원격 인터뷰 합격 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/remote_interview_pass.png)
+![원격 인터뷰 합격 메일](/img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/remote_interview_pass.png)
 
 원격 인터뷰를 통과했어요!
 
@@ -121,7 +123,7 @@ tags:
 
 원격 인터뷰 합격 메일을 받은 날, 바로 그 다음 면접 일정을 안내받게 되었어요.
 
-![1차 인터뷰 안내 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/1st_interview_guide.png)
+![1차 인터뷰 안내 메일](/img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/1st_interview_guide.png)
 
 (참고로 이 단계부터는 불합격을 하게 되면 1년간 재지원이 불가능해요)
 
@@ -141,7 +143,7 @@ tags:
 
 면접 중간에 분명 알던 내용인데 갑자기 기억이 안나서 5초정도 뇌정지가 왔었는데요, 그래서 이 면접이야말로 제대로 조졌다 생각을 했어요. 그런데...
 
-![1차 인터뷰 합격 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/1st_interview_pass.png)
+![1차 인터뷰 합격 메일](/img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/1st_interview_pass.png)
 
 통과했어요!
 
@@ -151,7 +153,7 @@ tags:
 
 이렇게 마지막 면접까지 오게 되었어요.
 
-![2차 인터뷰 안내 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/2nd_interview_guide.png)
+![2차 인터뷰 안내 메일](/img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/2nd_interview_guide.png)
 
 마지막 면접은 입사 후 저가 일하게 될 팀의 상위 조직장님 1명, 그리고 이전 면접에서와 같이 공통면접관이란 명칭으로 타 팀에서 1명 이렇게 2명이 들어오셨어요.
 
@@ -161,30 +163,17 @@ tags:
 
 그렇게 마지막 면접이 끝났고, 약 일주일 정도의 기다림 끝에
 
-![2차 인터뷰 합격 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/2nd_interview_pass.png)
+![2차 인터뷰 합격 메일](/img/2021-03-01-1st-half-of-2020-kakao-employment-application-epilogue/2nd_interview_pass.png)
 
 최종 합격 메일을 받게 되었어요.
 
-## 이후 과정
 
-일단 수시채용 지원이다 보니 연봉협상 과정이 (형식적으로) 있었어요. 뭐 어차피 신입 지원이라 사실상 협상할 만한 건 없었어요.
+## 글을 마무리하며
 
-그리고, (아마 잘 알려져 있을 것이라고 생각하지만) 카카오에서는 영어 명칭을 사용해요. 그래서 이 영어 명칭을 포함하여 입사 전에 필요한 기본 인적사항을 입력하는 단계가 있었어요.
+6개월도 더 지난 일을 기억 속에서 끄집어내면서 적어보려니 까먹은 부분도 많고 뭔가 글의 내용이 부실하긴 해요.
 
-![입사 안내 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/before_enter_1.png)
+그래도 이 글이 누군가에게는 도움이 되었으면 좋겠어요.
 
-![입사 전 가이드 메일](/img/2021-02-13-1st-half-of-2020-kakao-employment-application-epilogue/before_enter_2.png)
+이 글을 보는 모든 분들이 좋은 결과를 얻기를 기원합니다.
 
-이 가이드 메일에는 일하게 될 팀에서 어떤 기술을 사용하고 있는지, 무엇을 미리 보고 오면 좋을지에 대한 내용이 있었어요.
-
-그렇게 저는 카카오에 입사를 하게 되었습니다.
-
-## 그런데 지금은 카카오 재직중이 아니시네요?
-
-이 글의 도입부에 적은 바와 같이 저는 신입 지원이었기 때문에 저는 우선 3개월 간 인턴과 비슷한 형태로 근무하는 조건으로 입사를 하게 되었어요.
-
-> ※ 카카오 기술 직군의 경우, 개발 경력 2년 미만일시 추가 역량 검증을 위해 정직원 최종 합격 전, 최대 3개월간 계약직으로 근무할 수 있습니다.
-> (단, 신입개발자 블라인드 채용 전형 합격자의 경우는 개발 경력 2년미만이라도 정규직으로 입사하게 됩니다.)
-
-공고에도 적혀 있던 내용이고, 최종 합격 메일을 받기 전에 이 내용에 대한 안내 메일과 함께 이 근무 형태로 진행할 것인지에 대한 확인 메일이 먼저 왔었어요.
-
+> P.S. 이 글을 작성하는 시점의 저는 현재 카카오에 재직중이지 않은 상태입니다.
