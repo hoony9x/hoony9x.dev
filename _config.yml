@@ -128,3 +128,8 @@ robotstxt:
 
 # hexo-all-minifier
 all_minifier: true
+
+image_minifier:
+  enable: true
+  multipass: true
+  optimizationLevel: 7
