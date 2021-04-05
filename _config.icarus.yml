@@ -39,25 +39,25 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: hoony9x's Dev Log
+        title:
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
-        type: blog
+        type:
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url:  https://hoony9x.dev
+        url:
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: /image/og_image.png
+        image:
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: hoony9x's Dev Log
+        site_name:
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: Kihoon Han
+        author:
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: Personal dev log of hoony9x
+        description:
         # Twitter card type (twitter:card)
         twitter_card: 
         # Twitter ID (twitter:creator)
@@ -69,25 +69,25 @@ head:
         # Facebook admin ID
         fb_admins: 
         # Facebook App ID
-        fb_app_id: 
+        fb_app_id: 1393117071032557
     # Structured data of the page
     # https://developers.google.com/search/docs/guides/intro-structured-data
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: hoony9x's Dev Log
+        title:
         # Page description (optional)
         # You should leave this blank for most of the time
-        description: Personal dev log of hoony9x
+        description:
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: https://hoony9x.dev
+        url:
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: Kihoon Han
+        author:
         # Page images (optional)
         # You should leave this blank for most of the time
-        image: /image/og_image.png
+        image:
     # Additional HTML meta tags in an array
     meta:
         # Meta tag specified in <attribute>=<value> style
