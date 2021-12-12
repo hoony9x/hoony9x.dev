@@ -196,3 +196,31 @@ CKA 시험 신청(및 비용 결제)은 [여기](https://training.linuxfoundatio
 이정도 준비하고 나서 일단 에라 모르겠다 하고 시험을 쳤고, 생각보다 무난하게 테스트를 통과하여 CKA 를 취득할 수 있었어요.
 - 이 시험은 66점 이상을 받으면 통과에요. 너무 부담 가지지 않으셔도 돼요.
 
+## 꿀팁 또는 주의사항이 있을까요?
+
+시험 대부분의 과정은 yaml 파일을 작성하는 것이에요. 따라서 아무래도 yaml 을 빠르게 작성하는 것이 중요해요.
+- 물론 처음부터 끝까지 직접 작성해야 하는 것은 아니에요.
+- `kubectl run sample --image=nginx:latest --dry-run=client -o yaml > sample.yaml` 과 같은 커맨드로 yaml 의 틀을 생성할 수도 있고
+- K8s 문서에 sample yaml 들이 있는 페이지들이 있는데, 이들을 미리 북마크에 등록해두고 시험 중에 해당 내용을 빠르게 가져온 후 필요한 부분만 바꿔서 사용하는 방법을 택하시면 돼요.
+
+`kubectl` command 를 계속 사용하게 되는데, Imperative Commands 를 익혀 두시면 간단한 pod 생성 등은 yaml 작성할 필요 없이 빠르게 할 수 있어요.
+- [Managing Kubernetes Objects Using Imperative Commands](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/imperative-command/)
+
+실제 시험은 여러 개의 K8s cluster 들이 존재해요. (이는 `killer.sh` 시뮬레이터에서도 미리 체험할 수 있어요)
+- 그래서 각 문제마다 `kubectl config use-context <context-name>` 과 같이 사용해야 할 context 가 명시되어 있어요.
+- 반드시 각 문제를 풀 때 위의 커맨드를 실행해줘야 해요.
+  - 이를 까먹고 그대로 문제를 풀 경우 엉뚱한 cluster 에 조작을 가하게 돼요.
+  - 경우에 따라 멀쩡하게 풀었던 문제가 다 날아갈 수 있어요.
+- [2021년 9월 기준 시험 환경 Cluster 정보](https://sysnet4admin.gitbook.io/k8s/certification/cka-ckad-cks)
+
+그리고 `killer.sh` 에 나오는 문제들을 어떻게 해결하는지 잘 숙지해 두면 실제 시험에 많은 도움이 될 것이라고 생각해요.
+
+## 마치며
+
+CKA 자격증은 개인적으로 Kubernetes 에 관심을 가지면서 준비를 하게 되었는데요, 이를 통해서 Kubernetes 에 대한 이해가 조금은 더 늘어난 것 같아요.
+
+꼭 자격증 취득이 아니더라도, Kubernetes 공부 측면으로도 좋다고 생각해요.
+
+자격증을 준비하시는 분들께 이 글이 도움이 되길 바랄게요.
+
+![CKA Certificate - Kihoon Han](/img/2021-12-12-2021-cka-certification-epliogue/cka-certificate-kihoon-han.jpg)
