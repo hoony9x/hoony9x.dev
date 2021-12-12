@@ -103,3 +103,96 @@ CKA 시험 신청(및 비용 결제)은 [여기](https://training.linuxfoundatio
 
 이외의 것은 아래에서 따로 적을게요.
 
+## 시험 준비는 어떻게 했나요? (+ 시험 환경은 어떤가요?)
+
+우선 시험 환경에 대해서 이야기를 드릴게요.
+- CKA 응시 중에는 시험 시스템 화면(문제와 Linux CLI 로 구성되어 있어요)과 1개의 추가 탭을 열 수 있어요. (즉, 총 2개의 탭)
+  - 추가 탭에서는 아래 URL(및 해당 URL 의 하위 경로)에 해당하는 사이트만 접근이 가능해요.
+    - https://kubernetes.io/docs
+    - https://github.com/kubernetes
+  - K8s docs 의 search 의 경우 검색 시도 시 해당 URL 에서 벗어나게 되는데요, 이 행위가 허용되는지 여부는 시험 시작 전 감독관에게 확인이 필요해요.
+- 컴퓨터 1대만 사용이 가능하고, 응시를 하는 장소 (책상 등)에는 책 등 다른 것들이 있으면 안 돼요.
+- 껌이나 먹을 것 등의 취식이 불가능하며, 물은 마실 수 있는데 반드시 투명한 액체여야 하고 투명한 페트병에 들어 있어야 해요.
+  - 즉, 보리차나 이온음료 등 불투명 액체는 시험 중 마실 수 없어요.
+- 응시 중에는 그 누구도 응시 장소(방 등)에 들어오면 안 돼요.
+  - 만약 본인의 방이 누군가가 들어올 확률이 높다(e.g. 본가에서 있는데 갑자기 누군가가 들어온다던지)면 아예 스터디룸을 하나 빌리는 것을 추천해요.
+- 시험 중 화장실을 갈 수는 있지만, 화장실에 가 있는 중에도 타이머는 계속 돌아가요.
+- 시험 전 신분 확인 과정을 거치는데, **웬만하면 여권을 지참**하세요. 여권이 없을 경우 절차가 복잡해집니다.
+
+위의 시험 환경 이야기 중에는 "시험 중 접근할 수 있는 사이트가 제한됨" 이란 이야기를 했어요.
+- 즉, 구글링을 할 수 없고, 공식 사이트 내 docs 와 kubernetes github 페이지만 사용할 수 있어요.
+- Docs 에 검색창이 있긴 한데, 개인적인 경험상 **매번 검색하면서 내용을 찾으면 시간이 부족할 수 있어요.**
+  - 따라서, **필요한 내용들을 미리 Chrome Bookmark 에 추가해두는 것을 강력하게 추천**해드려요.
+  - 저가 추가해뒀던 Bookmark 내용은 아래에 있어요.
+
+> ### Kubernetes Docs
+> - [bash auto-completion on Linux](https://kubernetes.io/docs/tasks/tools/included/optional-kubectl-configs-bash-linux/)
+> - [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
+> - [Volumes](https://kubernetes.io/docs/concepts/storage/volumes/)
+> - [Persistent Volume Claims](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims)
+> - [Installing Addons](https://kubernetes.io/docs/concepts/cluster-administration/addons/)
+> - [Pods](https://kubernetes.io/docs/concepts/workloads/pods/)
+> - [Static Pods](https://kubernetes.io/docs/concepts/workloads/pods/#static-pods)
+> - [Assigning Pods to Nodes](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/)
+> - [Taints and Tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
+> - [Service](https://kubernetes.io/docs/concepts/services-networking/service/)
+> - [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
+> - [Upgrading kubeadm clusters](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/)
+> - [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/)
+> - [Security Context](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
+> - [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
+> - [Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+> - [Certificate Signing Requests](https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/#create-certificatesigningrequest)
+> - [ETCD](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/)
+> - [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+> - [Configure a Pod to Use a ConfigMap](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/)
+> - [Declare Network Policy](https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/)
+> - [JSONPath Support](https://kubernetes.io/docs/reference/kubectl/jsonpath/)
+> - [Configure a Pod to Use a PersistentVolume for Storage](https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/)
+> - [Configure Memory and CPU Quotas for a Namespace](https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/quota-memory-cpu-namespace/)
+> - [Debug Running Pods](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-running-pod/#ephemeral-container)
+> - [Customizing DNS Service](https://kubernetes.io/docs/tasks/administer-cluster/dns-custom-nameservers/)
+> - [Use an HTTP Proxy to Access the Kubernetes API](https://kubernetes.io/docs/tasks/extend-kubernetes/http-proxy-access-api/)
+> - [Debugging DNS Resolution](https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/)
+> - [Logging Architecture](https://kubernetes.io/docs/concepts/cluster-administration/logging/)
+> - [Configure Liveness, Readiness and Startup Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
+> - [Define Environment Variables for a Container](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/)
+> - [Communicate Between Containers in the Same Pod Using a Shared Volume](https://kubernetes.io/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume/)
+> - [Network Plugins](https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/)
+> - [Auditing](https://kubernetes.io/docs/tasks/debug-application-cluster/audit/)
+> - [Application Introspection and Debugging](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application-introspection/)
+> - [Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
+> - [kubelet](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/)
+> - [Field Selectors](https://kubernetes.io/docs/concepts/overview/working-with-objects/field-selectors/)
+> - [Overview of kubectl](https://kubernetes.io/docs/reference/kubectl/overview/#custom-columns)
+> - [Affinity and anti-affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)
+> - [Managing Secrets using kubectl](https://kubernetes.io/docs/tasks/configmap-secret/managing-secret-using-kubectl/)
+> - [Kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/)
+> - [Managing Resources for Containers](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/)
+> - [Certificates](https://kubernetes.io/docs/tasks/administer-cluster/certificates/)
+> - [Manage TLS Certificates in a Cluster](https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/)
+> - [Certificate Management with kubeadm](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/)
+> - [Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+> - [Labels and Selectors](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)
+> - [DNS for Services and Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)
+> - [kubeadm token](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-token/)
+>
+> ### Kubernetes GitHub Repositories
+> - [Demonstrate how to use secure communication by juampynr](https://github.com/kubernetes/website/pull/26700/files)
+> - [Add example to restore snapshot by juampynr](https://github.com/kubernetes/website/pull/26701/files)
+
+시험 전에 저는 KodeKloud 의 mock exam 을 2번 반복했어요.
+
+그리고 시험을 결제하면 [killer.sh](https://killer.sh/) 에서 CKA Simulator 를 사용해 볼 수 있어요.
+
+![killer.sh 메인화면](/img/2021-12-12-2021-cka-certification-epliogue/a3344212-f0e8-49fe-af55-c41922b85202.jpg)
+
+이 시뮬레이터의 경우 실제 CKA 에서 나올 수 있을 법한 문제들을 많이 담고 있어요.
+- 실제 시험은 여기에 있는 문제 수보다는 적어요.
+- 실제 시험은 시뮬레이터의 난이도보다 쉬워요.
+
+전 이 시뮬레이터를 2회 반복해서 풀어봤어요.
+
+이정도 준비하고 나서 일단 에라 모르겠다 하고 시험을 쳤고, 생각보다 무난하게 테스트를 통과하여 CKA 를 취득할 수 있었어요.
+- 이 시험은 66점 이상을 받으면 통과에요. 너무 부담 가지지 않으셔도 돼요.
+
