@@ -1,0 +1,35 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: hoony9x-dev-web-app
+  namespace: {{ .Values.namespace }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  strategy:
+    canary:
+      steps:
+        - setWeight: 20
+        - pause: {duration: 1}
+        - setWeight: 40
+        - pause: {duration: 1}
+        - setWeight: 60
+        - pause: {duration: 1}
+        - setWeight: 80
+        - pause: {duration: 1}
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: hoony9x-dev-web-app
+  template:
+    metadata:
+      labels:
+        app: hoony9x-dev-web-app
+    spec:
+      containers:
+        - name: hoony9x-dev-web-app
+          image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: {{ .Values.service.targetPort }}
+              protocol: TCP

@@ -1,0 +1,17 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: hoony9x-dev-web-app-ingress-route
+  namespace: {{ .Values.namespace }}
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - kind: Rule
+      match: Host(`hoony9x.dev`)
+      priority: 10
+      services:
+        - name: hoony9x-dev-web-app
+          port: {{ .Values.service.port }}
+  tls:
+    secretName: hoony9x-dev-tls-certificate
