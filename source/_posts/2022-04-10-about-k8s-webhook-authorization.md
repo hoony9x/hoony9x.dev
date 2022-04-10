@@ -124,3 +124,32 @@ RBAC, ABAC 은 사용 방법은 다르지만 "미리 정의된 설정" 에 의�
 하지만 Webhook Authorizer 의 경우 "사전에 정의된 별도의 API 서버" 구현에 따라 인가 여부를 동적으로 결정할 수 있을 것으로 보여요.
 - e.g. 짧은 시간 내에 Pod list 를 너무 많이 조회하면 일정 시간 동안 인가 결과를 No 로 내려주기 (rate limiting)
 
+## Source Code
+
+> 기준 version: 1.21
+
+아래 코드들은 config 적용 부분 코드로 보여요.
+
+`server.go`
+
+![Authorizer Config 부분](/img/2022-04-10-about-k8s-webhook-authorization/44f7dc71-d741-4557-ab24-ef7ffa499b3d.png)
+
+![BuildAuthorizer 부분](/img/2022-04-10-about-k8s-webhook-authorization/ff2ed3f9-4d07-4b8a-ba60-01df2b6afeee.png)
+
+`pkg/kubeapiserver/authorizer/config.go`
+
+![`authorizationConfig.New()` 부분](/img/2022-04-10-about-k8s-webhook-authorization/8cd7400e-d5c0-49c4-a229-eb185c486964.png)
+
+그리고 아래 코드들은 [webhook.go](https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apiserver/plugin/pkg/authorizer/webhook/webhook.go) 에서 찾을 수 있어요.
+
+[`WebhookAuthorizer.Authorize(...)` 에 달린 comment](https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apiserver/plugin/pkg/authorizer/webhook/webhook.go#L119-L165) 는 다음과 같아요.
+
+> Authorize makes a REST request to the remote service describing the attempted action as a JSON serialized `api.authorization.v1beta1.SubjectAccessReview` object.
+>
+> An example request body is provided below.
+
+[`WebhookAuthorizer.Authorize(...)`](https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apiserver/plugin/pkg/authorizer/webhook/webhook.go#L166-L247) 에서는 "사전에 정의된 별도의 API 서버" 에 요청을 보낸 후 응답 결과에 따라 인가를 처리하는 것을 볼 수 있어요.
+
+![사용자 정보와 Resource 정보를 얻는 부분](/img/2022-04-10-about-k8s-webhook-authorization/c058d53b-a532-441d-8dba-6ea7bb54b96f.png)
+
+![응답 결과에 따라 인가 여부를 결정하는 부분](/img/2022-04-10-about-k8s-webhook-authorization/4299c467-18cd-4ed6-a1bb-13117c88c956.png)
