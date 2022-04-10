@@ -2,7 +2,7 @@
 title: Kubernetes Webhook Authorization 에 관하여
 categories:
 - Kubernetes
-date: 2022-04-10 17:00:00
+date: 2022-04-10 20:39:44
 cover: /img/2022-04-10-about-k8s-webhook-authorization/kubernetes.svg
 thumbnail: /img/2022-04-10-about-k8s-webhook-authorization/kubernetes.svg
 tags:
@@ -37,6 +37,14 @@ Kubernetes API 에 접근하기 위해서는 [인증](https://kubernetes.io/docs
 - `Subresource`
 - `Namespace`
 - `API Group`
+
+## Webhook Authorization 을 사용하도록 설정하기
+
+이 인가 방법을 사용하기 위해서는 사전에 설정이 되어 있어야 해요.
+- 어느 API 서버로 요청을 보내고 응답을 받을 것인지
+- 해당 API 서버의 검증을 위한 PKI 설정도 포함
+
+[공식 문서](https://kubernetes.io/docs/reference/access-authn-authz/webhook/#configuration-file-format) 에 설정하는 방법이 있으니 참고하시면 돼요. 여기서는 설정 방법에 대해서는 적지 않으려고 해요.
 
 ## Webhook Authorization 의 동작 흐름
 
@@ -153,3 +161,7 @@ RBAC, ABAC 은 사용 방법은 다르지만 "미리 정의된 설정" 에 의�
 ![사용자 정보와 Resource 정보를 얻는 부분](/img/2022-04-10-about-k8s-webhook-authorization/c058d53b-a532-441d-8dba-6ea7bb54b96f.png)
 
 ![응답 결과에 따라 인가 여부를 결정하는 부분](/img/2022-04-10-about-k8s-webhook-authorization/4299c467-18cd-4ed6-a1bb-13117c88c956.png)
+
+## 맺으며
+
+여기까지 해서 이번 글을 끝내려고 해요. 별로 특별한 내용은 없지만, 누군가에게는 도움이 되기를 바랄게요.
