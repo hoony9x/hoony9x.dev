@@ -1,10 +1,10 @@
-.---
+---
 title: 2022년 CKAD 취득 후기
 categories:
 - Kubernetes
-  date: 2022-05-15 14:30:00
-  cover: /img/2022-05-15-ckad-certification-epliogue/ckad-certificate-kihoon-han.jpg
-  thumbnail: /img/2022-05-15-ckad-certification-epliogue/ckad-certificate-kihoon-han.jpg 
+date: 2022-05-15 14:30:00
+cover: /img/2022-05-15-2022-ckad-certification-epliogue/ckad-certificate-kihoon-han.jpg
+thumbnail: /img/2022-05-15-2022-ckad-certification-epliogue/ckad-certificate-kihoon-han.jpg 
 tags:
 - kubernetes
 - cncf
@@ -65,7 +65,7 @@ CKAD 에도 나오는 문제의 형태는 비슷한데, 아래와 같은 차이�
 CKA 때와 마찬가지로 Udemy 의 강의를 들었어요.
 - [\[Udemy\] Kubernetes Certified Application Developer (CKAD) with Tests](https://www.udemy.com/course/certified-kubernetes-application-developer/)
 
-![Kubernetes Certified Application Developer (CKAD) with Tests](/img/2021-12-12-2021-cka-certification-epliogue/78a13131-d773-416d-80c1-72a9fc0e92c0.jpg)
+![Kubernetes Certified Application Developer (CKAD) with Tests](/img/2022-05-15-2022-ckad-certification-epliogue/de372a7a-f240-4167-a397-9f7bab31a0bd.png)
 
 다만, CKA 와 겹치는 내용이 많아서 이미 알고 있던 내용들은 빠르게 넘겼어요. 그래서 실제로 강의 수강에 투자한 시간은 1주일도 안되긴 해요.
 
@@ -119,4 +119,4 @@ CKAD 시험 신청(및 비용 결제)은 [여기](https://training.linuxfoundati
 
 자격증을 준비하시는 분들께 이 글이 도움이 되길 바랄게요.
 
-![CKAD Certificate - Kihoon Han](/img/2022-05-15-ckad-certification-epliogue/ckad-certificate-kihoon-han.jpg)
+![CKAD Certificate - Kihoon Han](/img/2022-05-15-2022-ckad-certification-epliogue/ckad-certificate-kihoon-han.jpg)
