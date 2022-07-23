@@ -3,6 +3,7 @@ title: 2022년 CKAD 취득 후기
 categories:
 - Kubernetes
 date: 2022-05-15 14:30:00
+updated: 2022-07-23 23:25:55
 cover: /img/2022-05-15-2022-ckad-certification-epliogue/ckad-certificate-kihoon-han.jpg
 thumbnail: /img/2022-05-15-2022-ckad-certification-epliogue/ckad-certificate-kihoon-han.jpg 
 tags:
@@ -20,6 +21,18 @@ tags:
 대부분의 내용은 CKA 준비 후기에 적힌 글과 유사해요. 그래서 해당 글을 먼저 보고 오시는 것을 추천드려요.
 
 <!-- more -->
+
+> ## 2022년 7월 23일 내용 추가
+> 
+> Linux Foundation 에서는 2022년 6월 25일을 기준으로 Test Platform 의 변경이 있었습니다.
+> 
+> 이와 관련하여 자세한 내용은 아래 링크를 참고해 주시기 바랍니다.
+> - https://training.linuxfoundation.org/bridge-migration-2021/
+> 
+> 이제 시험 환경으로 전용 브라우저인 ["PSI Secure Browser"](https://tca.psiexams.com/portal/testdelivery/sb_rpnow_download.jsp) 를 사용한다고 합니다.
+> - 여기서 중요한 변경 사항으로, **더 이상 "필요한 내용들을 미리 Chrome Bookmark 에 추가해두는 것" 을 할 수 없습니다.**
+> - 위 링크의 내용에도 **"Use of personal bookmarks will no longer be permitted"** 라고 명시되어 있습니다.
+> - 앞으로 CKA/CKAD/CKS 를 준비하실 경우 이 변경사항을 꼭 참고해 주세요.
 
 ## Overview
 
